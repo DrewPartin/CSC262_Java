@@ -34,7 +34,13 @@ public class App {
                 crapsStats.printStats();
                 break;
             case 5:
+                Sieve sieve = new Sieve();
+                sieve.primeFinder();
+                break;
             case 6:
+                SavingsAccount savingsAccount = new SavingsAccount(0);
+                savingsAccount.SavingsAccountTest();
+                break;
             case 7:
                 System.out.println("Goodbye!");
                 break;
